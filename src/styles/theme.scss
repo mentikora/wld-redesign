@@ -1,0 +1,91 @@
+/* 
+ * Include fonts
+ */
+@font-face {
+  font-family: 'conv_b';
+  src: url('/fonts/Corporates S Cyrillic Bold.eot');
+  src: local('☺'), url('/fonts/Corporates S Cyrillic Bold.woff') format('woff'), url('/fonts/Corporates S Cyrillic Bold.ttf') format('truetype'), url('/fonts/Corporates S Cyrillic Bold.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'conv_r';
+  src: url('/fonts/Corporates S Cyrillic Regular_1.eot');
+  src: local('☺'), url('/fonts/Corporates S Cyrillic Regular_1.woff') format('woff'), url('/fonts/Corporates S Cyrillic Regular_1.ttf') format('truetype'), url('/fonts/Corporates S Cyrillic Regular_1.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'daimler';
+  src: url('/fonts/DaimlerCACPro-Regular.eot');
+  src: local('☺'), url('/fonts/DaimlerCACPro-Regular.woff') format('woff'), url('/fonts/DaimlerCACPro-Regular.ttf') format('truetype'), url('/fonts/DaimlerCACPro-Regular.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('/fonts/icomoon.eot?sjdgzz');
+  src:  url('/fonts/icomoon.eot?sjdgzz#iefix') format('embedded-opentype'),
+    url('/fonts/icomoon.ttf?sjdgzz') format('truetype'),
+    url('/fonts/icomoon.woff?sjdgzz') format('woff'),
+    url('/fonts/icomoon.svg?sjdgzz#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* 
+ * Def's
+ */
+body{
+}
+
+*{
+  box-sizing: border-box;
+}
+
+#wrapper{
+  margin: 0 auto;
+}
+
+/* clearfix */
+.__clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.__clearfix { display: inline-block; }
+* html .__clearfix { height: 1%; }
+.__clearfix { display: block; }
+
+.img-responsive{
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.left{
+  float: left;
+}
+.right{
+  float: right;
+}
+
