@@ -53,28 +53,18 @@
  * Def's
  */
 body{
+  display: flex;
+  flex-direction: column;
+}
+#wrapper{
+  flex-grow: 1;
 }
 
 *{
   box-sizing: border-box;
 }
 
-#wrapper{
-  margin: 0 auto;
-}
 
-/* clearfix */
-.__clearfix:after {
-  visibility: hidden;
-  display: block;
-  font-size: 0;
-  content: " ";
-  clear: both;
-  height: 0;
-}
-.__clearfix { display: inline-block; }
-* html .__clearfix { height: 1%; }
-.__clearfix { display: block; }
 
 .img-responsive{
   display: block;

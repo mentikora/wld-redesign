@@ -1,4 +1,7 @@
-@import "normalize.scss";
+@import "common/normalize.scss";
+@import "common/variables.scss";
+@import "common/theme.scss";
 
-@import "variables.scss";
-@import "theme.scss";
+@import "extends/clearfix.scss";
+
+@import "components/heading-large.scss";

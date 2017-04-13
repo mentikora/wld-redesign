@@ -1,0 +1,47 @@
+@mixin heading-large($border-color: $color-orange){
+	$pseudo-border: 15px solid $border-color;
+	$pseudo-width: 130px;
+	$pseudo-height: 60px;
+
+	position: relative;
+
+	color: $color-white;
+	font: {
+		size: 70px;
+	}
+	text: {
+		align: center;
+		transform: uppercase;
+	}
+
+	&::before,
+	&::after{
+		content: '';
+		position: absolute;
+		left: 50%;
+		z-index: 2;
+		display: block;
+		width: $pseudo-width;
+		height: $pseudo-height;
+		margin-left: -$pseudo-width/2;
+		
+		border: {
+			left: $pseudo-border;
+			right: $pseudo-border;
+		}
+
+		box-sizing: border-box;
+	}
+	&::before{
+		top: -$pseudo-height;
+		border-top: $pseudo-border;
+	}
+	&::after{
+		bottom: -$pseudo-height;
+		border-bottom: $pseudo-border;
+	}
+}
+
+.heading-large{
+	@include heading-large($color-orange);
+}
