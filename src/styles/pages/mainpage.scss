@@ -16,3 +16,17 @@
 		color: $color-orange;
 	}
 }
+
+.section-services{
+	.heading-large{
+		text-align: center;
+		margin:{
+			top: 175px;
+			bottom: 130px;
+		}
+	}
+	.col-md-4{
+		height: $service-item-height;
+		margin-bottom: 30px;
+	}
+}

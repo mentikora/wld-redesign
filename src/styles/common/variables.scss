@@ -1,6 +1,7 @@
 /* Colors */
-$color-gray: #5b5b5b;
 $color-white: #ffffff; 
+$color-black: #000000;
+$color-gray: #5b5b5b;
 $color-orange: #ff6000;
 
 /* FontFamily */ 
@@ -9,3 +10,12 @@ $raleway: 'Raleway';
 
 /* Path */
 $images-path: "/images/";
+
+/* Etc */
+$transition: all .15s ease-out;
+$boxShadow: 0 0 20px 0 rgba($color-black, .2);
+$circle: 50%; 
+
+/* Mainpage */ 
+$service-item-height: 370px;
+
