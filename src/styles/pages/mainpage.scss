@@ -1,0 +1,18 @@
+.section-welcome{
+	background:{
+		image: url(#{$images-path}test-bg.jpg);
+		repeat: no-repeat;
+		attachment: fixed;
+		position: 50%;
+		size: cover; 	
+	} 
+	min-height: 100vh;
+
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+
+	.heading-large{
+		color: $color-orange;
+	}
+}

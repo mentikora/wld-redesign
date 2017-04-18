@@ -1,8 +1,12 @@
 @import "common/normalize.scss";
 @import "common/variables.scss";
+@import "common/grid.scss";
 @import "common/theme.scss";
+@import "common/fonts.scss";
 
 @import "extends/clearfix.scss";
 
 @import "components/heading-large.scss";
 @import "components/text.scss";
+
+@import "pages/mainpage.scss";

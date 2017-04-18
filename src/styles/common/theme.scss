@@ -56,6 +56,8 @@ body{
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+
+  font-family: $rubik-light;
 }
 #wrapper{
   flex-grow: 1;

@@ -3,5 +3,31 @@ $color-gray: #5b5b5b;
 $color-white: #ffffff; 
 $color-orange: #ff6000;
 
-/* Fonts */ 
-$font-rubik: Arial, sans-serif;
+/* FontFamily */ 
+$rubik-light: 'Rubik Light';
+$rubik-italic: 'Rubik Italic';
+$rubic-light-italic: 'Rubik Light Italic';
+$rubik-bold-italic: 'Rubik Bold Italic';
+$rubik-medium-italic: 'Rubik Medium Italic';
+$rubik-reg: 'Rubik Regular';
+$rubik-black: 'Rubik Black';
+$rubik-bold: 'Rubik Bold';
+$rubik-bold-italic: 'Rubik Bold Italic';
+$rubik-medium: 'Rubik Medium';
+
+$raleway-bold: 'Raleway Bold';
+$raleway-reg: 'Raleway Regular';
+$raleway-medium: 'Raleway Medium';
+$raleway-black: 'Raleway Black';
+$raleway-extra-light: 'Raleway Extra Light';
+$raleway-thin: 'Raleway Thin';
+$raleway-extra-bold: 'Raleway Extra Bold';
+$raleway-semi-bold: 'Raleway Semi Bold';
+$raleway-light: 'Raleway Light';
+
+
+/* Path */
+$images-path: "/images/";
+$font-rubik-path: "/fonts/rubik/";
+$font-raleway-path: "/fonts/raleway/";
+

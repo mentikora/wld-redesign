@@ -1,19 +1,7 @@
-@mixin heading-large($border-color: $color-orange){
+@mixin heading-large__pseudo($border-color: $color-orange){
 	$pseudo-border: 15px solid $border-color;
 	$pseudo-width: 130px;
 	$pseudo-height: 60px;
-
-	position: relative;
-
-	color: $color-white;
-	font: {
-		size: 70px;
-		family: $font-rubik;
-	}
-	text: {
-		align: center;
-		transform: uppercase;
-	}
 
 	&::before,
 	&::after{
@@ -44,5 +32,17 @@
 }
 
 .heading-large{
-	@include heading-large($color-orange);
+	position: relative;
+
+	font: {
+		size: 70px;
+		family: $rubik-light;
+	}
+	text: {
+		transform: uppercase;
+	}
+
+	&__pseudo{
+		@include heading-large__pseudo($color-orange);
+	}
 }
