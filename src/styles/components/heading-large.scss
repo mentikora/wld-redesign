@@ -33,7 +33,12 @@
 
 .heading-large{
 	position: relative;
-
+	
+	margin:{
+		top: 0;
+		bottom: 28px;
+	}
+	line-height: 82px;
 	font: {
 		weight: 900;
 		size: 70px;

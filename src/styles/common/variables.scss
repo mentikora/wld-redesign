@@ -5,17 +5,18 @@ $color-gray: #5b5b5b;
 $color-orange: #ff6000;
 
 /* FontFamily */ 
-$rubic: 'Rubik';
+$rubik: 'Rubik';
 $raleway: 'Raleway';
 
 /* Path */
 $images-path: "/images/";
 
 /* Etc */
-$transition: all .15s ease-out;
+$transition: all .23s ease-in-out;
 $boxShadow: 0 0 30px 0 rgba($color-black, .2);
 $circle: 50%; 
 
 /* Mainpage */ 
 $service-item-height: 370px;
+$portfolio-item-height: 390px;
 

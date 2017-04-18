@@ -1,9 +1,28 @@
-.section-welcome{
-	background:{
-		image: url(#{$images-path}test-bg.jpg);
+.heading-background{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	height: 450px;
+	margin:{
+		top: 130px;
+		bottom: 130px;
+	}
+
+	background: {
+		size: cover;
+		position: 50%;
 		repeat: no-repeat;
 		attachment: fixed;
-		position: 50%;
+	}
+}
+
+.section-welcome{
+	background:{
+		image: url(#{$images-path}welcome-slide.jpg);
+		repeat: no-repeat;
+		attachment: fixed;
+		position: 50% bottom;
 		size: cover; 	
 	} 
 	min-height: 100vh;
@@ -14,6 +33,9 @@
 
 	.heading-large{
 		color: $color-orange;
+	}
+	.text__lg{
+		color: rgba($color-black, .7);
 	}
 }
 
@@ -28,5 +50,12 @@
 	.col-md-4{
 		height: $service-item-height;
 		margin-bottom: 30px;
+	}
+}
+
+.section-portfolio{
+	.heading-background{
+		background-image: url(#{$images-path}heading-bg-portfolio.jpg);
+		color: $color-white;
 	}
 }
