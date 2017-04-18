@@ -1,0 +1,30 @@
+.adv-price-wrapper{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	height: $service-item-height - 10px;
+	box-shadow: $boxShadow;
+	background: {
+		color: $color-orange;
+	}
+
+	&__title{
+		color: $color-white;
+		font:{
+			size: 45px;
+			weight: 900;
+			family: $raleway;
+		} 
+		text-transform: uppercase;
+	}
+
+	&__btn{
+		display: inline-block;
+		width: 370px;
+		height: 70px;
+		border-radius: 35px;
+		box-shadow: 0 30px 30px 0 rgba($color-black, .2);
+	}
+}
