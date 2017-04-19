@@ -4,10 +4,6 @@
 	align-items: center;
 
 	height: 450px;
-	margin:{
-		top: 130px;
-		bottom: 130px;
-	}
 
 	background: {
 		size: cover;
@@ -55,7 +51,22 @@
 
 .section-portfolio{
 	.heading-background{
+		margin:{
+			top: 130px;
+			bottom: 95px;
+		}
 		background-image: url(#{$images-path}heading-bg-portfolio.jpg);
+		color: $color-white;
+	}
+}
+
+.section-business{
+	.heading-background{
+		margin:{
+			top: 95px;
+			bottom: 130px;
+		}
+		background-image: url(#{$images-path}heading-bg-business.jpg);
 		color: $color-white;
 	}
 }
