@@ -1,6 +1,9 @@
 .portfolio-item{
 	display: flex;
 	flex-direction: column;
+	margin: {
+		top: 70px;
+	}
 
 	box-shadow: $boxShadow;
 
@@ -59,6 +62,8 @@
 		}
 	}
 	&__arrow{
+		display: inline-block;
+		width: 38px;
 		transition: $transition;
 	}
 
@@ -69,6 +74,7 @@
 		.portfolio-item__title,
 		.portfolio-item__arrow{
 			color: $color-orange;
+			fill: $color-orange;
 		}
 	}
 }
