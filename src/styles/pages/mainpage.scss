@@ -70,3 +70,31 @@
 		color: $color-white;
 	}
 }
+
+.section-auditing{
+	background-color: $color-orange;
+	h2{
+		color: $color-white;
+		font:{
+			size: 45px;
+			weight: 900;
+			family: $raleway;
+		}
+		text:{
+			align: center;
+			transform: uppercase;
+		}
+	}
+	.text{
+		color: rgba($color-white, .7);
+		text-align: center;
+	}
+}
+
+.section-news{
+	.heading-large{
+		margin-top: 130px;
+		margin-bottom: 130px;
+		text-align: center;
+	}
+}
