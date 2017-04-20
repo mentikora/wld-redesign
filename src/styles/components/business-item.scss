@@ -1,0 +1,52 @@
+.business-item{
+	display: flex;
+	align-items: center;
+
+	height: 200px;
+	margin:{
+		bottom: 130px;
+	}
+	
+	&__number{
+		-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    background:{ 
+    	repeat: no-repeat;
+    	size: cover;
+    	position: 50%;
+    	image: url(#{$images-path}welcome-slide.jpg);
+    }
+		text: {
+			align: center;
+		}
+		font: {
+			weight: 900;
+			size: 338px;
+			family: $raleway;
+		}
+
+		&__01::before{
+			content: '01';
+		}
+		&__02::before{
+			content: '02';
+		}
+		&__03::before{
+			content: '03';
+		}
+
+		&::before{
+			display: block;
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			z-index: 2;
+			-webkit-background-clip: text;
+	    -webkit-text-fill-color: transparent;
+	    background-color: rgba($color-black, .5);
+		}
+	}
+}
