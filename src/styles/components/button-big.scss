@@ -1,0 +1,35 @@
+.btn-big{
+	display: block;
+	width: 370px;
+	height: 70px;
+	line-height: 70px;
+	border-radius: $button-big-radius;
+	box-shadow: 0 15px 15px 0 rgba($color-black, .2);
+	transition: $transition;
+	letter-spacing: 3px;
+	cursor: pointer;
+
+	text:{
+		align: center;
+		transform: uppercase;
+		decoration: none;
+	}
+	font:{
+		weight: 900;
+		size: 18px;
+		family: $raleway;
+	}
+
+	&__orange{
+		color: $color-black;
+		background-color: $color-orange;
+	}
+	&__white{
+		color: $color-orange;
+		background-color: $color-white;
+	}
+
+	&:hover{
+		box-shadow: 0 30px 30px 0 rgba($color-black, .2);
+	}
+}
