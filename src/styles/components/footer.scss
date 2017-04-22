@@ -1,0 +1,29 @@
+#footer{
+	> .container{
+		position: relative;
+	}
+}
+.footer__content{
+	position: absolute;
+	top: 0;
+	z-index: 2;	
+	background-color: $color-white;
+	box-shadow: $boxShadow;
+	> .text{
+		text-align: center;
+	}
+}
+
+.footer__title{
+	color: $color-orange;
+	font:{
+		size: 45px;
+		weight: 900;
+		family: $raleway;
+	}
+	text:{
+		transform: uppercase;
+		align: center;
+	}
+}
+
