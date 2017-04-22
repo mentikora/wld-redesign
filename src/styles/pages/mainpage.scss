@@ -73,7 +73,11 @@
 
 .section-auditing{
 	background-color: $color-orange;
+	display: flex;
+	align-items: center;
+  height: 495px;
 	h2{
+		margin-top: 0;
 		color: $color-white;
 		font:{
 			size: 45px;
@@ -89,9 +93,19 @@
 		color: rgba($color-white, .7);
 		text-align: center;
 	}
+
+	form{
+		display: flex;
+		justify-content: center;
+		margin-top: 30px;
+		.input--jiro{
+			margin-right: 30px;
+		}
+	}
 }
 
 .section-news{
+	padding-bottom: 430px;
 	.heading-large{
 		margin-top: 130px;
 		margin-bottom: 130px;
@@ -105,7 +119,6 @@
 		margin: {
 			top: 20px;
 			right: auto;
-			bottom: 130px;
 			left: auto;
 		}
 	}
