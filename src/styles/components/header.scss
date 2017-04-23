@@ -1,0 +1,93 @@
+#header{
+	position: fixed;
+	z-index: 999;
+	top: 30px;
+	right: 30px;
+	left: 30px;
+	width: calc(100% - 60px);
+
+	background-color: $color-white;
+	box-shadow: $boxShadow;
+	transition: $transition;
+}
+
+.header-content{
+	padding:{
+		top: 17px;
+		left: 30px;
+		right: 30px;
+		bottom: 17px;
+	}
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	&__logo{}
+
+	&__socials{
+		a{
+			display: inline-block;
+			margin: {
+				left: 15px;
+				right: 15px;
+			}
+			font-size: 18px;
+			color: #808080;
+			text-decoration: none;
+			transition: $transition;
+
+			&:hover{
+				color: $color-orange;
+			}
+		}
+	}
+
+	&__contacts{
+		color: $color-gray;
+		font: {
+			size: 18px;
+			family: $rubik;
+			weight: 300;
+		}
+		span{
+			padding: {
+				left: 40px;
+				right: 40px;
+			}
+		}
+		i{
+			margin-right: 15px;
+		}
+	}
+
+	&__btn-menu{
+		cursor: pointer;
+		span{
+			display: block;
+			width: 30px;
+			height: 2px;
+			
+			background-color: $color-orange;
+			transition: $transition;
+
+			&:nth-child(even){
+				margin: {
+					top: 4px;
+					bottom: 4px;
+				}
+			}
+		}
+		&:hover{
+			span{
+				background-color: $color-black;
+				&:nth-child(even){
+					margin: {
+						top: 6px;
+						bottom: 6px;
+					}
+				}
+			}
+		}
+	}
+}

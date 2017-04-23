@@ -3,9 +3,11 @@
 @import "common/font-family.scss";
 @import "common/grid.scss";
 @import "common/theme.scss";
+@import "common/welldo-font-icons.scss";
 
 @import "extends/clearfix.scss";
 
+@import "components/header.scss";
 @import "components/heading-large.scss";
 @import "components/text.scss";
 @import "components/service-item.scss";
