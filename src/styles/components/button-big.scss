@@ -21,8 +21,12 @@
 	}
 
 	&__orange{
-		color: $color-black;
+		color: $color-white;
 		background-color: $color-orange;
+
+		&:hover{
+			color: $color-black;
+		}
 	}
 	&__white{
 		color: $color-orange;

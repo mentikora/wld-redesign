@@ -4,6 +4,8 @@
 	justify-content: center;
 	align-items: center;
 
+	position: relative;
+
 	height: $service-item-height - 10px;
 	box-shadow: $boxShadow;
 	background: {
@@ -20,11 +22,69 @@
 		text-transform: uppercase;
 	}
 
-	&__btn{
+	.btn-big{
+		svg{
+			fill: $color-black;
+			width: 60px;
+		}		
+	}
+	
+	
+}
+
+.adv-price-popup{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	position: absolute;
+	top: -70px;
+	left: 0;
+	z-index: 2;
+	height: 500px;
+
+	box-shadow: $boxShadow;
+	background-color: $color-white;
+	padding: 20px;
+	
+	form{
+		text-align: center;
+	}
+	.input-jiro-wrapper{
+		margin: {
+			bottom: 30px;
+		}
+	}
+	.input-jiro-wrapper,
+	.btn-big{
+		margin: {
+			left: auto;
+			right: auto;
+		}
+	}
+	.input__label{
+		color: $color-black;
+	}
+	.input__label--jiro::before {
+		border-top: 2px solid $color-orange;
+	}
+
+	.input__label--jiro::after {
+		background: $color-orange;
+	}
+
+	
+	.close{
+		position: absolute;
+		top: 20px;
+		right: 20px;
+		cursor: pointer;
 		display: inline-block;
-		width: 370px;
-		height: 70px;
-		border-radius: 35px;
-		box-shadow: 0 30px 30px 0 rgba($color-black, .2);
+		width: 15px;
+		height: 15px;
+		svg{
+			fill: $color-orange;
+		}
 	}
 }
