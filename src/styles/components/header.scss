@@ -1,6 +1,6 @@
 #header{
 	position: fixed;
-	z-index: 999;
+	z-index: 500;
 	top: 30px;
 	right: 30px;
 	left: 30px;
@@ -9,6 +9,24 @@
 	background-color: $color-white;
 	box-shadow: $boxShadow;
 	transition: $transition;
+}
+
+.socials-block{
+	a{
+		display: inline-block;
+		margin: {
+			left: 15px;
+			right: 15px;
+		}
+		font-size: 18px;
+		color: #808080;
+		text-decoration: none;
+		transition: $transition;
+
+		&:hover{
+			color: $color-orange;
+		}
+	}
 }
 
 .header-content{
@@ -24,24 +42,6 @@
 	align-items: center;
 
 	&__logo{}
-
-	&__socials{
-		a{
-			display: inline-block;
-			margin: {
-				left: 15px;
-				right: 15px;
-			}
-			font-size: 18px;
-			color: #808080;
-			text-decoration: none;
-			transition: $transition;
-
-			&:hover{
-				color: $color-orange;
-			}
-		}
-	}
 
 	&__contacts{
 		color: $color-gray;
