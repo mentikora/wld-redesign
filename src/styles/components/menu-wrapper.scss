@@ -158,3 +158,49 @@
 		}
 	}
 }
+
+.menu-wrapper-left,
+.menu-wrapper-right{
+	position: absolute;
+	top: 45px;
+}
+.menu-wrapper-left{
+	left: 60px;
+}
+.menu-wrapper-right{
+	right: 60px;
+
+	.close{
+		display: block;
+		margin: {
+			bottom: 70px;
+		}
+		width: 24px;
+		height: 24px;
+		svg{
+			fill: $color-orange;
+		}
+	}
+	.lang-swicher{
+		a{
+			display: block;
+			margin: {
+				bottom: 50px;
+			}
+			color: $color-gray;
+			text-decoration: none;
+			font:{
+				size: 18px;
+				weight: 300;
+				family: $rubik;
+			}
+			transition: $transition;
+
+			&:hover,
+			&.active{
+				color: $color-orange;
+			}
+			
+		}
+	}
+}
