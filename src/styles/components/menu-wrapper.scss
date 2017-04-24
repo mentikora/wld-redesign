@@ -179,6 +179,13 @@
 		height: 24px;
 		svg{
 			fill: $color-orange;
+			transition: $transition;
+		}
+
+		&:hover{
+			svg{
+				fill: $color-black;
+			}
 		}
 	}
 	.lang-swicher{
