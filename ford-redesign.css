@@ -1,7 +1,33 @@
+/* #1  done */
+
 /* #14 */
-.tab.tabMainMenu > ul > li {
-	float: none;
+.tab.tabMainMenu > ul{
+	background: none #425968;
+  background: -moz-linear-gradient(top, #425968 45%, #32434f 50%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(45%, #425968), color-stop(50%, #32434f) );
+  background: -webkit-linear-gradient(top, #425968 45%, #32434f 50%);
+  background: -o-linear-gradient(top, #425968 45%, #32434f 50%);
+  background: -ms-linear-gradient(top, #425968 45%, #32434f 50%);
+  background: linear-gradient(to bottom, #425968 45%, #32434f 50%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#425968', endColorstr='#32434f', GradientType = 0);
 }
+/* .tab.tabMainMenu > ul > li {
+	float: none;
+} */
+.tab.tabMainMenu li.active{
+	margin-top: -5px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  overflow: hidden;
+  height: 40px;
+  box-shadow: 0 -3px 8px 0 #1d2c35;
+  -moz-box-shadow: 0 -3px 8px 0 #1d2c35;
+  -webkit-box-shadow: 0 -3px 8px 0 #1d2c35;
+}
+	.tab.tabMainMenu li.active > a{
+		height: 100%;
+		line-height: 22px;
+	}
 
 /* #9 */
 .article .tab li a.tab-button{
