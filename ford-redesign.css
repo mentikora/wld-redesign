@@ -1,2 +1,9 @@
-/**/
-body{background-color: #000 !important;}
+/* #14 */
+.tab.tabMainMenu > ul > li {
+	float: none;
+}
+
+/* #9 */
+.article .tab li a.tab-button{
+	max-width: inherit;
+}
