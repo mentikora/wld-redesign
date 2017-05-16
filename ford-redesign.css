@@ -11,9 +11,6 @@
   background: linear-gradient(to bottom, #425968 45%, #32434f 50%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#425968', endColorstr='#32434f', GradientType = 0);
 }
-/* .tab.tabMainMenu > ul > li {
-	float: none;
-} */
 .tab.tabMainMenu li.active{
 	margin-top: -5px;
   border-top-right-radius: 5px;
@@ -29,7 +26,11 @@
 		line-height: 22px;
 	}
 
+
 /* #9 */
 .article .tab li a.tab-button{
 	max-width: inherit;
 }
+	.article .tab li a.tab-button:after{
+		display: none !important;
+	}
