@@ -1,43 +1,15 @@
 /* #1  done */
 
-/* #14 */
-.tab.tabMainMenu{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+
+/* #6 - #8 */
+.article .tab li .tab-content h2 {
+  line-height: 24px;
+  color: #313131;
 }
-.tab.tabMainMenu > ul{
-	background: none #425968;
-  background: -moz-linear-gradient(top, #425968 45%, #32434f 50%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(45%, #425968), color-stop(50%, #32434f) );
-  background: -webkit-linear-gradient(top, #425968 45%, #32434f 50%);
-  background: -o-linear-gradient(top, #425968 45%, #32434f 50%);
-  background: -ms-linear-gradient(top, #425968 45%, #32434f 50%);
-  background: linear-gradient(to bottom, #425968 45%, #32434f 50%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#425968', endColorstr='#32434f', GradientType = 0);
+.article .tab li .tab-content p{
+  color: #5d5d5d;
+  line-height: 18px;
 }
-.tab.tabMainMenu li.active{
-	margin-top: -5px;
-  border-top-right-radius: 5px;
-  border-top-left-radius: 5px;
-  overflow: hidden;
-  height: 40px;
-  box-shadow: 0 -3px 5px 0 #1d2c35;
-  -moz-box-shadow: 0 -3px 5px 0 #1d2c35;
-  -webkit-box-shadow: 0 -3px 5px 0 #1d2c35;
-}
-	.tab.tabMainMenu li.active > a{
-		height: 18px;
-		line-height: 22px;
-	}
-    .tab.tabMainMenu li.active > a:after{
-      color: #22a3e6;
-      content: ">";
-      display: block;
-      font-family: "icons";
-      transform: rotate(90deg);
-    }
 
 /* #9 */
 .article .tab li a.tab-button{
@@ -47,12 +19,49 @@
 		display: none !important;
 	}
 
-/* #6 */
-.article .tab li .tab-content h2 {
-  line-height: 24px;
-  color: #313131;
+/* #14 */
+.tab.tabMainMenu{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.article .tab li .tab-content p{
-  color: #5d5d5d;
-  line-height: 18px;
+.tab.tabMainMenu > ul{
+  background: none #425968;
+  background: -moz-linear-gradient(top, #425968 45%, #32434f 50%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(45%, #425968), color-stop(50%, #32434f) );
+  background: -webkit-linear-gradient(top, #425968 45%, #32434f 50%);
+  background: -o-linear-gradient(top, #425968 45%, #32434f 50%);
+  background: -ms-linear-gradient(top, #425968 45%, #32434f 50%);
+  background: linear-gradient(to bottom, #425968 45%, #32434f 50%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#425968', endColorstr='#32434f', GradientType = 0);
+}
+.tab.tabMainMenu li.active{
+  margin-top: -5px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  overflow: hidden;
+  height: 40px;
+  box-shadow: 0 -3px 5px 0 #1d2c35;
+  -moz-box-shadow: 0 -3px 5px 0 #1d2c35;
+  -webkit-box-shadow: 0 -3px 5px 0 #1d2c35;
+}
+  .tab.tabMainMenu li.active > a{
+    height: 18px;
+    line-height: 22px;
+  }
+    .tab.tabMainMenu li.active > a:after{
+      color: #22a3e6;
+      content: ">";
+      display: block;
+      font-family: "icons";
+      transform: rotate(90deg);
+    }
+
+/* body bg */
+body{
+  background-image: url(http://web.archive.org/web/20161001092313im_/http://www.ford.co.uk/cs/ContentServer?pagename=ENGInE/EP2/common/GetImageByName&imageName=background_common_v2&site=EP2COM_ENGInE) !important;
+  background-repeat: repeat-y !important; 
+  background-position: center 0 !important;
+  
 }
