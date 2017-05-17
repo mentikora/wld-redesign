@@ -20,11 +20,15 @@
 	}
 
 /* #14 */
-.tab.tabMainMenu{
+.tab.tabMainMenu, 
+.tab.tabMainMenu > ul{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.tab.tabMainMenu > ul{
+  flex-wrap: wrap;
 }
 .tab.tabMainMenu > ul{
   background: none #425968;
@@ -58,10 +62,3 @@
       transform: rotate(90deg);
     }
 
-/* body bg */
-body{
-  background-image: url(http://web.archive.org/web/20161001092313im_/http://www.ford.co.uk/cs/ContentServer?pagename=ENGInE/EP2/common/GetImageByName&imageName=background_common_v2&site=EP2COM_ENGInE) !important;
-  background-repeat: repeat-y !important; 
-  background-position: center 0 !important;
-  
-}
