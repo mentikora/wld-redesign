@@ -39,7 +39,6 @@
       transform: rotate(90deg);
     }
 
-
 /* #9 */
 .article .tab li a.tab-button{
 	max-width: inherit;
@@ -47,3 +46,13 @@
 	.article .tab li a.tab-button:after{
 		display: none !important;
 	}
+
+/* #6 */
+.article .tab li .tab-content h2 {
+  line-height: 24px;
+  color: #313131;
+}
+.article .tab li .tab-content p{
+  color: #5d5d5d;
+  line-height: 18px;
+}
