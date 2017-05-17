@@ -23,7 +23,7 @@
 @media(min-width: 1024px){}
   .cmf-block-simple.cmf-block{
     width: 70% !important;
-    left: 15%;
+    margin-left: 15%;
   }
 }
 
