@@ -112,3 +112,13 @@ form[name="testdrive_request"] button[type="submit"]{
   color: white;
   cursor: pointer;
 }
+
+/* #Contacts */
+.contacts-content .bigHeading02{
+  font-family: "Ford Antenna";
+}
+.contacts-content .content{
+  color: #5d5d5d;
+  line-height: 18px;
+  font-family: "Ford Antenna";
+}
