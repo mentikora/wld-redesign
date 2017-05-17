@@ -122,3 +122,10 @@ form[name="testdrive_request"] button[type="submit"]{
   line-height: 18px;
   font-family: "Ford Antenna";
 }
+
+/* #16 */
+.welldo-wrapper .article .tab #bodytext li:before{
+  content: '●';
+  padding-right: 5px;
+  vertical-align: top;
+}
