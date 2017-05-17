@@ -31,6 +31,13 @@
 		height: 18px;
 		line-height: 22px;
 	}
+    .tab.tabMainMenu li.active > a:after{
+      color: #22a3e6;
+      content: "";
+      display: block;
+      font-family: "icons";
+      transform: rotate(90deg);
+    }
 
 
 /* #9 */
