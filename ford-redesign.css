@@ -23,9 +23,9 @@
   border-top-left-radius: 5px;
   overflow: hidden;
   height: 40px;
-  box-shadow: 0 -3px 8px 0 #1d2c35;
-  -moz-box-shadow: 0 -3px 8px 0 #1d2c35;
-  -webkit-box-shadow: 0 -3px 8px 0 #1d2c35;
+  box-shadow: 0 -3px 5px 0 #1d2c35;
+  -moz-box-shadow: 0 -3px 5px 0 #1d2c35;
+  -webkit-box-shadow: 0 -3px 5px 0 #1d2c35;
 }
 	.tab.tabMainMenu li.active > a{
 		height: 18px;
@@ -38,5 +38,5 @@
 	max-width: inherit;
 }
 	.article .tab li a.tab-button:after{
-		display: none !important;
+		/* display: none !important; */
 	}
