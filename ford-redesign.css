@@ -92,7 +92,7 @@ form[name="testdrive_request"] select{
   transition: all 0.15s linear;
 }
 
-form[name="testdrive_request"] input[type="submit"]{
+form[name="testdrive_request"] button[type="submit"]{
   background-color: #05509a;
   background-image: linear-gradient(to bottom,#6da3da 0,#478acd 1%,#3e79b5 50%,#2567a7 51%,#05509a 100%);
   border: 1px solid #1e5993;
