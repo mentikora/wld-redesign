@@ -49,6 +49,15 @@
   background: linear-gradient(to bottom, #425968 45%, #32434f 50%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#425968', endColorstr='#32434f', GradientType = 0);
 }
+
+@media only screen and (max-width: 1023px){
+	.tabMainMenu ul>li{
+		height: auto !important;
+	}
+	.content .tabMainMenu ul .active a.tab-button{
+		padding: .75em 5% !important;
+	}
+}
 @media only screen and (min-width: 1024px){
 	.tab.tabMainMenu li.active{
 		margin-top: -5px;
@@ -72,8 +81,6 @@
 	  transform: rotate(90deg);
 	}
 }
-  
-
 
 /* #13 */
 form[name="testdrive_request"]{
