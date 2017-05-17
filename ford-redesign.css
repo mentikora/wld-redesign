@@ -33,7 +33,7 @@
 	}
     .tab.tabMainMenu li.active > a:after{
       color: #22a3e6;
-      content: "";
+      content: ">";
       display: block;
       font-family: "icons";
       transform: rotate(90deg);
@@ -45,5 +45,5 @@
 	max-width: inherit;
 }
 	.article .tab li a.tab-button:after{
-		/* display: none !important; */
+		display: none !important;
 	}
