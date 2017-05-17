@@ -73,46 +73,42 @@ form[name="testdrive_request"]{
   }
 }
 form[name="testdrive_request"] label{
-  font-size: 14px;
   display: block;
-  margin-bottom: 8px;
-  color: #425968;
-  line-height: 18px;
+  font-size: 0.75em;
+  color: #003399;
+  margin-bottom: 0.625em;
 }
 form[name="testdrive_request"] input[type="text"],
 form[name="testdrive_request"] input[type="email"],
 form[name="testdrive_request"] select{
-  padding: 0 10px 0 10px;
-  height: 38px;
-  margin-bottom: 10px;
-  border-radius: 0;
-
-  -webkit-appearance: none;
-  background-color: #fff;
-  font-family: inherit;
-  border: 1px solid #425968;
-  box-shadow: none;
-  color: rgba(0,0,0,0.75);
-  display: block;
-  font-size: 14px;
+  background: #e1e1e1;
+  border: solid 1px #003399;
+  border-color: #e1e1e1 #e1e1e1 #e1e1e1 #003399;
+  border-left-width: 2px;
   width: 100%;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
-  transition: all 0.15s linear;
+  padding: 0.3125em 0.625em 0.4375em 0.625em;
+  color: #313131;
+  -webkit-transition: border-color 0.4s ease-in-out;
+  -moz-transition: border-color 0.4s ease-in-out;
+  transition: border-color 0.4s ease-in-out;
 }
+  form[name="testdrive_request"] input[type="text"]:focus,
+  form[name="testdrive_request"] input[type="email"]:focus,
+  form[name="testdrive_request"] select:focus{
+    outline-width: 0;
+    border-color: #003399;
+  }
 
 form[name="testdrive_request"] button[type="submit"]{
-  background-color: #05509a;
-  background-image: linear-gradient(to bottom,#6da3da 0,#478acd 1%,#3e79b5 50%,#2567a7 51%,#05509a 100%);
-  border: 1px solid #1e5993;
-  border-radius: 3px;
-  color: #fff;
-  display: block;
-  font-size: 18px;
-  font-weight: bold;
-  padding: 10px 30px;
+  background-color: #003399;
+  color: white;
+  width: 49%;
+  display: inline-block;
   text-transform: uppercase;
-  margin-left: auto;
-  margin-right: auto;
+  padding: 0.9375em 0em;
+  text-align: center;
+  background-color: #91a4b1;
+  color: white;
+  cursor: pointer;
 }
