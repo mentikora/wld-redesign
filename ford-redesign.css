@@ -19,6 +19,14 @@
 		display: none !important;
 	}
 
+/* #10 */
+@media(min-width: 1024px){}
+  .tab ul li .tab-content{
+    width: 70%;
+    left: 15%;
+  }
+}
+
 /* #14 */
 .tab.tabMainMenu{
   display: flex;
