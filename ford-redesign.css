@@ -124,7 +124,7 @@ form[name="testdrive_request"] button[type="submit"]{
 }
 
 /* #16 */
-.welldo-wrapper .article .tab #bodytext li:before{
+.article .tab li .tab-content li:before{
   content: '●';
   padding-right: 5px;
   vertical-align: top;
