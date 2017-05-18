@@ -171,8 +171,12 @@ and (max-device-width : 1024px)  {
 
 /* ipad #3 */
 @media (max-width: 1023px){
+	.welldo-wrapper .article .tab #bodytext{
+		margin-top: 20px;
+	}
 	.welldo-wrapper .article .tab #bodytext li{
 		width: 100%;
+		box-sizing: border-box;
 	}
 	.welldo-wrapper .article .tab #bodytext li img{
 		display: block !important;
@@ -181,8 +185,5 @@ and (max-device-width : 1024px)  {
 	}
 	.welldo-wrapper .article .tab #bodytext .content{
 		margin-top: 10px !important;
-	}
-	.welldo-wrapper .article .tab li .tab-content{
-		max-height: auto !important;
 	}
 }
