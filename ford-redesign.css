@@ -26,8 +26,14 @@
 	}
 
 /* #10 */
+@media (max-width: 1023px){
+	.cmf-block.cmf-block-simple{
+		width: 100% !important;
+		margin-left: 0 !important;
+	}
+}
 @media (min-width: 1024px){}
-  .cmf-block-simple.cmf-block{
+  .cmf-block.cmf-block-simple{
     width: 70% !important;
     margin-left: 15%;
   }
