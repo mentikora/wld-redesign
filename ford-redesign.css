@@ -221,17 +221,17 @@ and (max-device-width : 1024px)  {
 	.welldo-wrapper .article .tab #bodytext li:hover a.tab-button{
 		border-radius: 0 !important;
 	}
-	.welldo-wrapper .article .tab #bodytext li a.tab-button:after, 
-	.welldo-wrapper .article .tab #bodytext li.active a.tab-button:after{
+	.welldo-wrapper .article .tab #bodytext li a.tab-button::after, 
+	.welldo-wrapper .article .tab #bodytext li.active a.tab-button::after{
 		content: ">";
     display: inline-block;
     float: right;
-    font-family: "icons";
     font-size: .6875em;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
     line-height: 1;
     text-transform: none;
+    color: #425968;
 	}
 }
