@@ -203,10 +203,14 @@ and (max-device-width : 1024px)  {
 }
 
 @media (max-width: 767px){
-	.three-column{
+	.three-column, .two-column{
 		flex-wrap: wrap;
+		flex-direction: column;
 	}
 	.three-column .content-block{
 		width: 100% !important;
+	}
+	.two-column .content-block{
+		min-height: inherit !important;
 	}
 }
