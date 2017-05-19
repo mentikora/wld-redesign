@@ -47,6 +47,11 @@
   justify-content: center;
   align-items: center;
 }
+@media (max-width: 1023px){
+  .tab.tabMainMenu ul{
+    width: 100%;
+  }
+}
 @media (max-width: 990px){
   .tab.tabMainMenu{
     margin-top: 0 !important;
