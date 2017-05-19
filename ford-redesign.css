@@ -8,6 +8,8 @@
   color: #313131;
   font-family: "Ford Antenna";
   font-size: 18px;
+  font-weight: normal;
+  margin: 16px 0 8px;
 }
 .article .tab li .tab-content p,
 .article p{
