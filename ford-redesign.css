@@ -117,61 +117,6 @@
   }
 }
 
-/* #13 */
-/* form[name="testdrive_request"]{
-  font-family: "Ford Antenna Condensed";
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-
-@media (min-width: 1024){
-  form[name="testdrive_request"]{
-    width: 60%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-form[name="testdrive_request"] label{
-  display: block;
-  font-size: 0.75em;
-  color: #003399;
-  margin-bottom: 0.625em;
-}
-form[name="testdrive_request"] input[type="text"],
-form[name="testdrive_request"] input[type="email"],
-form[name="testdrive_request"] select{
-  background: #e1e1e1;
-  border: solid 1px #003399;
-  border-color: #e1e1e1 #e1e1e1 #e1e1e1 #003399;
-  border-left-width: 2px;
-  width: 100%;
-  box-sizing: border-box;
-  padding: 0.3125em 0.625em 0.4375em 0.625em;
-  color: #313131;
-  -webkit-transition: border-color 0.4s ease-in-out;
-  -moz-transition: border-color 0.4s ease-in-out;
-  transition: border-color 0.4s ease-in-out;
-}
-  form[name="testdrive_request"] input[type="text"]:focus,
-  form[name="testdrive_request"] input[type="email"]:focus,
-  form[name="testdrive_request"] select:focus{
-    outline-width: 0;
-    border-color: #003399;
-  }
-
-form[name="testdrive_request"] button[type="submit"]{
-  background-color: #003399;
-  color: white;
-  width: 49%;
-  display: inline-block;
-  text-transform: uppercase;
-  padding: 0.9375em 0em;
-  text-align: center;
-  background-color: #91a4b1;
-  color: white;
-  cursor: pointer;
-} */
-
 /* #Contacts */
 .contacts-content .bigHeading02{
   font-family: "Ford Antenna";
@@ -258,5 +203,18 @@ and (max-device-width : 1024px)  {
   .welldo-wrapper .article .tab #bodytext li.active a.tab-button, 
   .welldo-wrapper .article .tab #bodytext li:hover a.tab-button{
     border-radius: 0 !important;
+  }
+}
+
+@media (max-width: 991px)
+  .content-column.right {
+    display: flex;
+    flex-direction: column;
+  }
+  .content-column.right .img-column{
+    order: 2;
+  }
+  .content-column.right .content{
+    order: 1;
   }
 }
