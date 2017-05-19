@@ -1,5 +1,22 @@
-/* #1  done */
-
+/* #1 */
+@media(min-width: 1700px){
+  body#body_11_0 .carousel ul {
+    padding-left: 50%;
+    margin-left: -290px;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1699px){
+  body#body_11_0 .carousel ul {
+    padding-left: 50%;
+    margin-left: -265px;
+  }
+}
+@media (max-width: 1023px){
+  body#body_11_0 .carousel ul {
+    padding-left: 50%;
+    margin-left: -265px;
+  }
+}
 
 /* #6 - #8 */
 .article .tab li .tab-content h2,
