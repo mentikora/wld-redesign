@@ -6,6 +6,8 @@
 .article h2 {
   line-height: 24px;
   color: #313131;
+  font-family: "Ford Antenna";
+  font-size: 18px;
 }
 .article .tab li .tab-content p,
 .article p{
