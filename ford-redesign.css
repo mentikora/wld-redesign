@@ -221,3 +221,29 @@ and (max-device-width : 1024px)  {
     order: 1;
   }
 }
+
+/* form style */
+.user-request .form{
+  padding: 0 !important;
+}
+.user-request input[type=text],
+.user-request input[type=email],
+.user-request select{
+  background: #e1e1e1;
+  border: solid 1px #003399;
+  border-color: #e1e1e1 #e1e1e1 #e1e1e1 #003399;
+  border-left-width: 2px;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.3125em 0.625em 0.4375em 0.625em;
+  color: #313131;
+  -webkit-transition: border-color 0.4s ease-in-out;
+  -moz-transition: border-color 0.4s ease-in-out;
+  transition: border-color 0.4s ease-in-out;
+} 
+  .user-request input[type=text]:focus,
+  .user-request input[type=email]:focus,
+  .user-request select:focus{
+    outline-width: 0;
+    border-color: #003399;
+  }
