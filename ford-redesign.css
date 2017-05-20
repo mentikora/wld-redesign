@@ -207,6 +207,9 @@ and (max-device-width : 1024px)  {
 }
 
 @media (max-width: 991px){
+  .content-column .content{
+    border: 0 !important;
+  }
   .content-column.right{
     display: flex;
     flex-direction: column;
