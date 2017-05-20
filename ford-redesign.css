@@ -247,3 +247,12 @@ and (max-device-width : 1024px)  {
     outline-width: 0;
     border-color: #003399;
   }
+.user-request label{
+  display: block;
+  font-size: 0.75em;
+  color: #003399;
+  margin-bottom: 0.625em;
+}
+.user-request button[type="submit"]{
+  border: 0;
+}
