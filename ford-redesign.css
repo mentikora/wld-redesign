@@ -224,6 +224,17 @@ and (max-device-width : 1024px)  {
 }
 
 /* form style */
+@media(max-width: 1023px){
+  .test-drive .step .step-content{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+@media(min-width: 1024px){
+  .test-drive .step .step-content{
+    padding: 0 !important;
+  }
+}
 .user-request .form{
   padding: 0 !important;
 }
