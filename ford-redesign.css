@@ -240,7 +240,8 @@ and (max-device-width : 1024px)  {
 }
 .user-request input[type=text],
 .user-request input[type=email],
-.user-request select{
+.user-request select,
+.user-request textarea{
   background: #e1e1e1;
   border: solid 1px #003399;
   border-color: #e1e1e1 #e1e1e1 #e1e1e1 #003399;
@@ -254,9 +255,14 @@ and (max-device-width : 1024px)  {
   -moz-transition: border-color 0.4s ease-in-out;
   transition: border-color 0.4s ease-in-out;
 } 
+  .user-request textarea{
+    min-height: 100px;
+    resize: none;
+  }
   .user-request input[type=text]:focus,
   .user-request input[type=email]:focus,
-  .user-request select:focus{
+  .user-request select:focus,
+  .user-request textarea:focus{
     outline-width: 0;
     border-color: #003399;
   }
@@ -268,6 +274,8 @@ and (max-device-width : 1024px)  {
 }
 .user-request button[type="submit"]{
   border: 0;
+  padding: 15px 35px !important;
+  font-size: 16px !important;
 }
 
 @media(min-width: 480px){
