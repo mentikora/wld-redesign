@@ -270,11 +270,18 @@ and (max-device-width : 1024px)  {
   border: 0;
 }
 
+@media(min-width: 480px){
+  .form-row-user_request_user_contact_firstName,
+  .form-row-user_request_user_contact_lastName,
+  .form-row-user_request_user_contact_phone,
+  .form-row-user_request_user_contact_email{
+    width: 50%;
+  }  
+}
 .form-row-user_request_user_contact_firstName,
 .form-row-user_request_user_contact_lastName,
 .form-row-user_request_user_contact_phone,
-.form-row-user_request_user_contact_phone{
-  width: 50%;
+.form-row-user_request_user_contact_email{
   padding: 1.25em 1.25em 0em 0em;
   box-sizing: border-box;
   float: left;
