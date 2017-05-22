@@ -278,6 +278,15 @@ and (max-device-width : 1024px)  {
     width: 50%;
   }  
 }
+@media(max-width: 479px){
+  .form-row-user_request_user_contact_firstName,
+  .form-row-user_request_user_contact_lastName,
+  .form-row-user_request_user_contact_phone,
+  .form-row-user_request_user_contact_email{
+    width: 100%;
+    padding: 0 !important;
+  }  
+}
 .form-row-user_request_user_contact_firstName,
 .form-row-user_request_user_contact_lastName,
 .form-row-user_request_user_contact_phone,
