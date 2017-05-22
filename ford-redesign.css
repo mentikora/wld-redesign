@@ -224,6 +224,17 @@ and (max-device-width : 1024px)  {
 }
 
 /* form style */
+@media(max-width: 1023px){
+  .test-drive .step .step-content{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+@media(min-width: 1024px){
+  .test-drive .step .step-content{
+    padding: 0 !important;
+  }
+}
 .user-request .form{
   padding: 0 !important;
 }
@@ -257,4 +268,14 @@ and (max-device-width : 1024px)  {
 }
 .user-request button[type="submit"]{
   border: 0;
+}
+
+.form-row-user_request_user_contact_firstName,
+.form-row-user_request_user_contact_lastName,
+.form-row-user_request_user_contact_phone,
+.form-row-user_request_user_contact_phone{
+  width: 50%;
+  padding: 1.25em 1.25em 0em 0em;
+  box-sizing: border-box;
+  float: left;
 }
