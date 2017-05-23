@@ -303,3 +303,8 @@ and (max-device-width : 1024px)  {
   box-sizing: border-box;
   float: left;
 }
+
+.two-column .content-block{
+  margin-bottom: 0 !important;
+  min-height: inherit !important;
+}
