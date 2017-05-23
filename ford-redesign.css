@@ -308,3 +308,8 @@ and (max-device-width : 1024px)  {
   margin-bottom: 0 !important;
   min-height: inherit !important;
 }
+
+/* slider text shadow */ 
+.carousel-title{
+  text-shadow: 0 0 5px #ffffff;
+}
