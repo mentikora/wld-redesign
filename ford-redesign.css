@@ -154,6 +154,12 @@ and (max-device-width : 1024px)  {
 }
 
 /* ipad #3 */
+.welldo-wrapper .article .tab #bodytext{
+  text-align: center !important;
+}
+.welldo-wrapper .article .tab #bodytext li{
+  display: inline-block !important;
+}
 @media (max-width: 1023px){
   .welldo-wrapper .article .tab #bodytext{
     margin-top: 20px;
