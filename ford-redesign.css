@@ -46,6 +46,9 @@
   }
 
 /* #10 */
+.cmf-block.cmf-block-simple{
+  clear: both !important;
+}
 @media (max-width: 1023px){
   .cmf-block.cmf-block-simple{
     width: 100% !important;
