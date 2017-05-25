@@ -33,6 +33,7 @@
 .article p{
   color: #5d5d5d;
   line-height: 18px;
+  font-size: 14px;
 }
 
 /* #9 */
@@ -364,7 +365,7 @@ and (max-device-width : 1024px)  {
   .two-column, .three-column, .content-column .img-column {
     float: none;
     width: 100%;
-    margin-left: 0;
-    margin-right: 0;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
   }
 }
