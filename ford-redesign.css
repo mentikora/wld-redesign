@@ -318,3 +318,9 @@ and (max-device-width : 1024px)  {
 .article ul, .article ol{
   list-style: disc !important;
 }
+
+@media (min-width: 1024px){
+  .tab {
+    height: auto !important;
+  }
+}
