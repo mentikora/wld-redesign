@@ -179,7 +179,7 @@ and (max-device-width : 1024px)  {
   }
 }
 
-@media (max-width: 980px){
+@media (max-width: 1023px){
   .two-column, .three-column{
     display: flex;
     justify-content: space-between;
