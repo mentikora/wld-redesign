@@ -343,3 +343,6 @@ and (max-device-width : 1024px)  {
   }
 }
 
+.content-column{
+  clear: both !important;
+}
