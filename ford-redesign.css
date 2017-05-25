@@ -317,6 +317,15 @@ and (max-device-width : 1024px)  {
 /* ul style */
 .article ul, .article ol{
   list-style: disc !important;
+  text-align: left !important;
+  border: 0 !important;
+  background: 0 !important;
+  padding: 0 !important;
+}
+.article ul li, .article ol li{
+  display: list-item !important;
+  color: #5d5d5d;
+  line-height: 18px;
 }
 
 @media (min-width: 1024px){
@@ -324,3 +333,4 @@ and (max-device-width : 1024px)  {
     height: auto !important;
   }
 }
+
