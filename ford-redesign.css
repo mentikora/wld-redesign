@@ -66,15 +66,14 @@
   align-items: center;
 }
 @media (max-width: 1023px){
+  .tab.tabMainMenu{
+    margin-top: 0 !important;
+  }
   .tab.tabMainMenu ul{
     width: 100%;
   }
 }
-@media (max-width: 990px){
-  .tab.tabMainMenu{
-    margin-top: 0 !important;
-  }
-}
+
 .tab.tabMainMenu > ul{
   background: none #425968;
   background: -moz-linear-gradient(top, #425968 45%, #32434f 50%);
