@@ -348,6 +348,9 @@ and (max-device-width : 1024px)  {
 
 @media(min-width: 1024px){
   .content-column.left .content{
-    float: left;
+    float: right;
+  }
+  .content-column.left .img-column{
+    overflow: hidden;
   }
 }
