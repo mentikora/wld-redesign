@@ -350,6 +350,7 @@ and (max-device-width : 1024px)  {
   .content-column.left .content{
     float: right;
   }
+  .content-column.right .img-column,
   .content-column.left .img-column{
     overflow: hidden;
   }
