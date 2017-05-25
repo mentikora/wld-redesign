@@ -313,3 +313,8 @@ and (max-device-width : 1024px)  {
 .carousel-title{
   text-shadow: 0 0 5px #ffffff;
 }
+
+/* ul style */
+.article ul, .article ol{
+  list-style: disc !important;
+}
