@@ -207,6 +207,12 @@ and (max-device-width : 1024px)  {
   }
   .two-column .content-block{
     min-height: inherit !important;
+
+    margin-bottom: 0 !important;
+    width: 100%;
+    margin-right: 0;
+    padding: 0 15px;
+    box-sizing: border-box;
   }
 }
 
@@ -382,5 +388,13 @@ and (max-device-width : 1024px)  {
   }  
   .article img{
     display: block !important;
+  }
+}
+
+@media(max-width: 767px){
+  .content-column .content{
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
