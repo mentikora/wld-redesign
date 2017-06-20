@@ -203,6 +203,7 @@ and (max-device-width : 1024px)  {
   .three-column, .two-column{
     flex-wrap: wrap;
     flex-direction: column;
+    padding: 0 !important;
   }
   .three-column .content-block{
     width: 100% !important;
