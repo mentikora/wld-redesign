@@ -190,11 +190,12 @@ and (max-device-width : 1024px)  {
     display: flex;
     justify-content: space-between;
     float: left !important;
-    margin-bottom: 20px !important;
+    margin-bottom: 10px !important;
     width: 100% !important;
   }
     .three-column .content-block{
       padding: 5px;
+      margin: 0 !important;
     }
 }
 
@@ -397,5 +398,11 @@ and (max-device-width : 1024px)  {
     box-sizing: border-box;
     padding-left: 15px;
     padding-right: 15px;
+  }
+}
+
+@media(max-width: 980px){
+  .content-block .content{
+    margin-top: 0 !important;
   }
 }
