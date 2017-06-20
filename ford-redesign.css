@@ -207,6 +207,7 @@ and (max-device-width : 1024px)  {
   }
   .three-column .content-block{
     width: 100% !important;
+    padding: 0 !important;
   }
   .two-column .content-block{
     min-height: inherit !important;
