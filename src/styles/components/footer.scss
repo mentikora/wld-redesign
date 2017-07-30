@@ -35,6 +35,19 @@
 	}
 }
 
+.footer__flex-row{
+	display: flex;
+	align-items: baseline;
+
+	i{
+		display: block;
+		margin-right: 15px;
+
+		color: #808080;
+		font-size: 17px;
+	}
+}
+
 #map{
 	background: $color-black;
 	height: 655px;

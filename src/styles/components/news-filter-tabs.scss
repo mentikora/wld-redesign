@@ -2,11 +2,12 @@
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
+
 	&__tab{
 		height: 45px;
 		line-height: 45px;
 		border: 1px solid $color-orange;
-		color: $color-orange;
+		color: $color-black;
 		transition: $transition;
 		cursor: pointer;
 		margin: {

@@ -6,6 +6,15 @@
 	margin:{
 		bottom: 130px;
 	}
+
+	&__title{
+		font: {
+			size: 25px;
+			family: $raleway;
+			weight: 900;
+		}
+		text-transform: uppercase;
+	}
 	
 	&__number{
 		-webkit-background-clip: text;
@@ -26,13 +35,13 @@
 			family: $raleway;
 		}
 
-		&__01::before{
+		&--01::before{
 			content: '01';
 		}
-		&__02::before{
+		&--02::before{
 			content: '02';
 		}
-		&__03::before{
+		&--03::before{
 			content: '03';
 		}
 
